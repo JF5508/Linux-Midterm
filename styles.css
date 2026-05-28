@@ -1,3 +1,5 @@
+/* Javier Fillalan SDC260 HTML*/
+
 body {
   margin: 0;
   padding: 0;
@@ -8,13 +10,20 @@ body {
 main {
   max-width: 960px;
   margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #444;
+  color: white;
 }
 
 section {
   padding: 20px;
-  background-color: #ffffff;
+  background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
 }
 
 nav ul {
@@ -25,21 +34,21 @@ nav ul {
   margin: 0;
 }
 
-nav li {
+nav ul li {
   margin: 0 15px;
 }
 
-nav a {
-  display: block;
-  padding: 12px 20px;
-  background-color: #333;
+nav ul li a {
   color: white;
+  background-color: #333;
+  padding: 12px 20px;
   text-decoration: none;
+  display: block;
   border-radius: 4px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s;
 }
 
-nav a:hover {
+nav ul li a:hover {
   background-color: #555;
 }
 
@@ -69,5 +78,4 @@ tfoot td {
   text-align: center;
   font-style: italic;
   border-top: 2px solid #ccc;
-  background-color: #fff;
 }
